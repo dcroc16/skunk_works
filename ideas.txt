@@ -1,2 +1,3 @@
 this is a plain text file where I am going to post ideas or problems i need to solve.
-- why can't I get my git repository connected to my terminal???
+- why can't I get my git repository connected to my terminal??? - A Typo of course
+

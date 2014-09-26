@@ -1,0 +1,20 @@
+application: vba-robot-info
+runtime: python27
+version: 1
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /style
+  static_dir: style
+- url: /code
+  static_dir: code
+- url: /.*
+  script: main.app
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
+
