@@ -9,21 +9,26 @@
             output.innerHTML = 'original string: ' + data.value;
             var ar = data.value;
             ar = ar.split('');
-            var l = ar.length - 1
+            var l = ar.length - 1;
             var i = 0;
-            var counter = 0;
-            while(i < ar.length -1){
-                current = ar[i];
-                counter = 0;
-                while(current > ar[counter]){
-		   ar[counter - 1] = ar[counter];
-                   ar[counter] = current;
-                   counter += 1;
+            while(i<=l){
+
+               	if(ar[i] > ar[i+1]){
+
+                   temp = ar[i];
+                   ar[i] = ar[i+1];
+                   ar[i+1] = temp;
+
+                   i = 0
+
+                }else{
+
+                   i++
                 }
-                i +=1;
-            }
-            output.innerHTML += '<br>' + ar;
-         }
+
+            }           
+            output.innerHTML += '<br> new string: ' + ar.join("");
+         }  
       </script>
     </head>
     <body>
@@ -31,11 +36,7 @@
        <input id="textarea1" type='textarea'><br>
        <button onclick="func()">Run</button>
        <div id="results">
-
-
-
-      </div>
-
+       </div>
     <body>
 
 </html>
