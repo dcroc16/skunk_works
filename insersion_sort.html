@@ -9,6 +9,8 @@
             output.innerHTML = 'original string: ' + data.value;
             var ar = data.value;
             ar = ar.split('');
+            data.value = null;
+            var op_count = 0;
             var l = ar.length - 1;
             var i = 0;
             while(i<=l){
@@ -18,7 +20,7 @@
                    temp = ar[i];
                    ar[i] = ar[i+1];
                    ar[i+1] = temp;
-
+                   op_count += 1;
                    i = 0;
 
                 }else{
@@ -27,7 +29,7 @@
                 }
 
             }           
-            output.innerHTML += '<br> new string: ' + ar.join("");
+            output.innerHTML += '<br> new string: ' + ar.join("") + '<br> number of operations: ' + op_count.toString();
          }  
       </script>
     </head>
