@@ -6,10 +6,21 @@
         h1{
 
            background-color:#303030;
-           color: #333333;
+           color: #ffffff;
+           padding: 5px;
+           margin:0 auto;
          }
+         body{
+           margin:0 auto;
 
 
+
+         }
+         #content{
+
+            margin: 10px;
+            padding: 5px;
+        }
      </style>
      <script>
         var func= function(){
@@ -44,10 +55,11 @@
     </head>
     <body>
        <h1>Insersion sort example</h1>
-       <p>Enter data to be sorted:</p>
-       <input id="textarea1" type='textarea'><br>
-       <button onclick="func()">Run</button>
-       <div id="results">
+       <div id="content">
+      	 <p>Enter data to be sorted:</p>
+      	 <input id="textarea1" type='textarea'><br>
+      	 <button onclick="func()">Run</button>
+      	 <div id="results"> </div>
        </div>
     <body>
 
