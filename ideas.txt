@@ -1,3 +1,3 @@
 this is a plain text file where I am going to post ideas or problems i need to solve.
 - why can't I get my git repository connected to my terminal??? - A Typo of course
-
+- goal try to build a rails app. Then see if I can get the rails app to launch a site hosted for free. Google appengine uses python so I don't think I can use that. Have to research this. 
