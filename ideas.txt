@@ -1,4 +1,5 @@
 this is a plain text file where I am going to post ideas or problems i need to solve.
 - why can't I get my git repository connected to my terminal??? - A Typo of course
 - goal try to build a rails app. Then see if I can get the rails app to launch a site hosted for free. Google appengine uses python so I don't think I can use that. Have to research this. -Boom heroku has a hobby option for free where they give you free hosting if your app is not too big. this is perfect
-- how do you git add a sub-directory??? 
+- how do you git add a sub-directory???
+-instead of ruby on heroku I am using node.js. I couldn't get ruby installed successfully but ubuntu system. didn't want to waste the night so switched to node which was super easy to get started. 
